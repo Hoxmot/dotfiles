@@ -1,0 +1,8 @@
+All:
+    ☐ Create instruction for installing config
+    ☐ Create script/program for automated installation
+
+JetBrains:
+    IntalliJ:
+        ☐ Save settings
+        Currently, the only Intallij settings I have are from my job, so I might have there something that shouldn't be public. I should recreate the config on my private machine and then export it. 

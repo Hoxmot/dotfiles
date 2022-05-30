@@ -1,0 +1,5 @@
+# vim
+
+## Files
+
+* `vimrc` -> `~/.vimrc`
