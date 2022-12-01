@@ -2,4 +2,4 @@
 
 The current configuration of my keyboard layouts.
 
-version: v.0.0
+version: v.0.1
