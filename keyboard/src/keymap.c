@@ -63,7 +63,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_GRAVE,       KC_Q,           KC_W,           KC_E,           KC_R,           KC_T,           TG(1),                                          TG(1),          KC_Y,           KC_U,           KC_I,           KC_O,           KC_P,           KC_MINUS,       
     KC_BSPACE,      KC_A,           KC_S,           KC_D,           KC_F,           KC_G,           KC_HYPR,                                                                        KC_MEH,         KC_H,           KC_J,           KC_K,           KC_L,           LT(2,KC_SCOLON),KC_QUOTE,       
     KC_LSHIFT,      MT(MOD_LCTL, KC_Z),MT(MOD_LGUI, KC_X),MT(MOD_LALT, KC_C),KC_V,           KC_B,                                           KC_N,           KC_M,           MT(MOD_RALT, KC_COMMA),MT(MOD_RGUI, KC_DOT),MT(MOD_RCTL, KC_SLASH),KC_RSHIFT,      
-    LT(1,KC_DELETE),CAPS_WORD,      LALT(KC_LSHIFT),KC_LEFT,        MT(MOD_LSFT, KC_RIGHT),MT(MOD_LALT, KC_APPLICATION),                                                                                                MT(MOD_LCTL, KC_ESCAPE),MT(MOD_RSFT, KC_UP),KC_DOWN,        KC_LBRACKET,    KC_RBRACKET,    MO(1),          
+    LT(1,KC_DELETE),CAPS_WORD,      LALT(KC_LSHIFT),KC_LEFT,        KC_RIGHT,       MT(MOD_LALT, KC_APPLICATION),                                                                                                MT(MOD_LCTL, KC_ESCAPE),KC_UP,          KC_DOWN,        KC_LBRACKET,    KC_RBRACKET,    MO(1),          
     KC_SPACE,       KC_TAB,         KC_ENTER,                       KC_BSPACE,      KC_TAB,         KC_ENTER
   ),
   [1] = LAYOUT_moonlander(
