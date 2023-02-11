@@ -3,9 +3,16 @@
 ## ToC
 
 * [Table of Contents](#toc)
+* [kitty](kitty/README.md)
+  * [Settings](kitty/README.md#settings)
+  * [Theme](kitty/README.md#settings)
 * [GNOME Terminal](#gnome-terminal)
   * [Settings](#gnome-terminal---settings)
   * [Theme](#gnome-terminal---theme)
+
+## kitty
+
+Go to kitty [README](kitty/README.md).
 
 ## GNOME Terminal
 

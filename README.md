@@ -6,6 +6,7 @@ My personal workstation configuration
 
 * [base16](https://github.com/chriskempson/base16)
 * [Terminals](terminal/README.md)
+  * [kitty](terminal/kitty/README.md)
   * [GNOME Terminal](terminal/README.md#gnome-terminal)
 * GNOME Tweaks
 * [JetBrains](jet-brains/README.md)
