@@ -1,5 +1,7 @@
 # Visual Studio Code
 
+<https://code.visualstudio.com/>
+
 ## ToC
 
 * [Table of Contents](#toc)

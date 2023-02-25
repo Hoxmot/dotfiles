@@ -4,20 +4,20 @@ My personal workstation configuration
 
 ## Programs
 
-* [base16](https://github.com/chriskempson/base16)
-* [Terminals](terminal/README.md)
-  * [kitty](terminal/kitty/README.md)
-  * [GNOME Terminal](terminal/README.md#gnome-terminal)
 * GNOME Tweaks
 * [JetBrains](jet-brains/README.md)
   * [Intellij IDEA](jet-brains/README.md#intellij)
   * [PyCharm](jet-brains/README.md#pycharm)
 * [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
-* oh-my-zsh
-* thefuck
+* [Terminals](terminal/README.md)
+  * [kitty](terminal/kitty/README.md)
+  * [GNOME Terminal](terminal/README.md#gnome-terminal)
 * [tmux](tmux/README.md)
+  * [Plugins](tmux/README.md#plugins)
 * [Visual Studio Code](vs-code/README.md)
 * [zsh](zsh/README.md)
+  * [Plugins](zsh/README.md#plugins)
+  * [Command line tools](zsh/README.md#tools)
 
 ## Languages
 
