@@ -1,6 +1,6 @@
 # kitty
 
-It's a very nice terminal. I like it. [https://sw.kovidgoyal.net/kitty/]
+It's a very nice terminal. I like it. <https://sw.kovidgoyal.net/kitty/>
 
 ## ToC
 
@@ -11,7 +11,7 @@ It's a very nice terminal. I like it. [https://sw.kovidgoyal.net/kitty/]
 
 ## Installation
 
-[https://sw.kovidgoyal.net/kitty/binary/]
+<https://sw.kovidgoyal.net/kitty/binary/>
 
 ## Settings
 
