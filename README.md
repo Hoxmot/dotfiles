@@ -19,6 +19,10 @@ My personal workstation configuration
   * [Plugins](zsh/README.md#plugins)
   * [Command line tools](zsh/README.md#tools)
 
+### Mac specific programs
+
+* [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake)
+
 ## Languages
 
 * Java
