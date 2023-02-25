@@ -25,11 +25,11 @@
 ### General
 
 * [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
-  * [Dracul website](https://draculatheme.com/visual-studio-code)
+  * [Website](https://draculatheme.com/visual-studio-code)
 * [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 * [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 * [Multiple cursor case preserve](https://marketplace.visualstudio.com/items?itemName=Cardinal90.multi-cursor-case-preserve)
-* ~~[One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)~~ - I prefere Dracula now.
+* ~~[One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)~~ - I prefer Dracula now.
 * [Todo+](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-todo-plus)
 * [VSCode Eval](https://marketplace.visualstudio.com/items?itemName=expixel.vscode-eval)
 
