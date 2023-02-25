@@ -7,7 +7,7 @@ then
 fi
 
 SESSION=$1
-SCRIPT_PATH=${HOME}/dev/scripts/tmux/${SESSION}.conf
+SCRIPT_PATH=${HOME}/developer/scripts/tmux/${SESSION}.conf
 
 if tmux has-session -t $SESSION 2>/dev/null;
 then
