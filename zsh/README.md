@@ -47,8 +47,6 @@ This should reduce the blast radius of accidental removal of `.zshrc` file.
 
 I should also consider having a backup of the file on each laptop, just in case...
 
-
-
 ```bash
 export VISUAL=vim
 export EDITOR=vim
@@ -57,6 +55,8 @@ export EDITOR=vim
 ## Tools
 
 * [bat](https://github.com/sharkdp/bat)
+* [delta](https://github.com/dandavison/delta)
+* [fx](https://github.com/antonmedv/fx) (Function eXecution)
 * [fzf](https://github.com/junegunn/fzf)
 * [ranger](https://github.com/ranger/ranger)
 * [scm_breez](https://github.com/scmbreeze/scm_breeze)
