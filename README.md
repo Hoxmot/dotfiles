@@ -9,6 +9,7 @@ My personal workstation configuration
   * [Intellij IDEA](jet-brains/README.md#intellij)
   * [PyCharm](jet-brains/README.md#pycharm)
 * [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+  * [JetBrainsMono Nerd Font](https://github.com/ryanoasis/nerd-fonts)
 * [Terminals](terminal/README.md)
   * [kitty](terminal/kitty/README.md)
   * [GNOME Terminal](terminal/README.md#gnome-terminal)
@@ -31,3 +32,7 @@ My personal workstation configuration
   * [GHCup](https://www.haskell.org/ghcup/)
 * node.js
   * [Node Version Manager](https://github.com/nvm-sh/nvm)
+
+## Installation
+
+Installation information for [MacOs](mac-os.md)
