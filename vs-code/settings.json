@@ -14,16 +14,26 @@
         "editor.defaultFormatter": "vigoo.stylish-haskell"
     },
     "[typescriptreact]": {
-        "editor.rulers": [120]
+        "editor.rulers": [80, 120],
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[typescript]": {
-        "editor.rulers": [120]
+        "editor.rulers": [80, 120],
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascript]": {
-        "editor.rulers": [120]
+        "editor.rulers": [80, 120],
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false,
     },
     "[javascriptreact]": {
-        "editor.rulers": [120]
+        "editor.rulers": [80, 120],
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false,
     },
     "[prolog]": {
         "editor.rulers": [80]
@@ -32,13 +42,26 @@
         "editor.unicodeHighlight.ambiguousCharacters": false,
         "editor.unicodeHighlight.invisibleCharacters": false,
         "editor.wordWrap": "on",
-        "editor.quickSuggestions": false,
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        },
         "editor.tabSize": 2,
         "editor.detectIndentation": false
     },
     "[todo]": {
-        "editor.quickSuggestions": false,
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        },
         "editor.wordWrap": "on"
+    },
+    "[astro]": {
+        "editor.rulers": [80],
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false,
     },
     "todo.statistics.project.enabled": false,
     "editor.fontFamily": "'JetBrainsMono Nerd Font', 'JetBrains Mono', 'DejaVu Sans Mono','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
@@ -58,7 +81,10 @@
         "default": "right",
         "jupyter-notebook": "left"
     },
-    "workbench.colorTheme": "One Dark Pro",
+    "workbench.colorTheme": "Dracula",
     "workbench.iconTheme": "material-icon-theme",
-    "haskell.manageHLS": "GHCup"
+    "haskell.manageHLS": "GHCup",
+    "[python]": {
+        "editor.formatOnType": true
+    }
 }
