@@ -1,9 +1,31 @@
 {
-    "editor.suggestSelection": "first",
     "editor.bracketPairColorization.enabled": true,
-    "[sql]": {
+    "editor.columnSelection": false,
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'JetBrains Mono', 'DejaVu Sans Mono','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.largeFileOptimizations": false,
+    "editor.multiCursorModifier": "alt",
+    "editor.padding.bottom": 0.6,
+    "editor.padding.top": 0.6,
+    "editor.suggestSelection": "first",
+    "git.autoStash": true,
+    "git.rebaseWhenSync": true,
+    "haskell.manageHLS": "GHCup",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "todo.statistics.project.enabled": false,
+    "workbench.colorTheme": "Dracula",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "[astro]": {
+        "editor.rulers": [80],
         "editor.tabSize": 2,
-        "editor.detectIndentation": false
+        "editor.detectIndentation": false,
     },
     "[haskell]": {
         "editor.tabSize": 2,
@@ -12,18 +34,6 @@
             90
         ],
         "editor.defaultFormatter": "vigoo.stylish-haskell"
-    },
-    "[typescriptreact]": {
-        "editor.rulers": [80, 120],
-        "editor.tabSize": 2,
-        "editor.detectIndentation": false,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-        "editor.rulers": [80, 120],
-        "editor.tabSize": 2,
-        "editor.detectIndentation": false,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascript]": {
         "editor.rulers": [80, 120],
@@ -34,9 +44,6 @@
         "editor.rulers": [80, 120],
         "editor.tabSize": 2,
         "editor.detectIndentation": false,
-    },
-    "[prolog]": {
-        "editor.rulers": [80]
     },
     "[markdown]": {
         "editor.unicodeHighlight.ambiguousCharacters": false,
@@ -50,6 +57,16 @@
         "editor.tabSize": 2,
         "editor.detectIndentation": false
     },
+    "[prolog]": {
+        "editor.rulers": [80]
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "[sql]": {
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false
+    },
     "[todo]": {
         "editor.quickSuggestions": {
             "comments": "off",
@@ -58,33 +75,16 @@
         },
         "editor.wordWrap": "on"
     },
-    "[astro]": {
-        "editor.rulers": [80],
+    "[typescript]": {
+        "editor.rulers": [80, 120],
         "editor.tabSize": 2,
         "editor.detectIndentation": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "todo.statistics.project.enabled": false,
-    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'JetBrains Mono', 'DejaVu Sans Mono','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-    "editor.fontSize": 14,
-    "editor.fontLigatures": true,
-    "editor.padding.top": 0.6,
-    "editor.padding.bottom": 0.6,
-    "git.rebaseWhenSync": true,
-    "git.autoStash": true,
-    "editor.multiCursorModifier": "alt",
-    "editor.columnSelection": false,
-    "editor.largeFileOptimizations": false,
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter-notebook"
+    "[typescriptreact]": {
+        "editor.rulers": [80, 120],
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "notebook.cellToolbarLocation": {
-        "default": "right",
-        "jupyter-notebook": "left"
-    },
-    "workbench.colorTheme": "Dracula",
-    "workbench.iconTheme": "material-icon-theme",
-    "haskell.manageHLS": "GHCup",
-    "[python]": {
-        "editor.formatOnType": true
-    }
 }
