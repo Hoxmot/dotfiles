@@ -58,6 +58,7 @@ export EDITOR=vim
 * [delta](https://github.com/dandavison/delta)
 * [fx](https://github.com/antonmedv/fx) (Function eXecution)
 * [fzf](https://github.com/junegunn/fzf)
+* [lazygit](https://github.com/jesseduffield/lazygit)
 * [ranger](https://github.com/ranger/ranger)
 * [scm_breez](https://github.com/scmbreeze/scm_breeze)
 * [thefuck](https://github.com/nvbn/thefuck)
@@ -66,3 +67,4 @@ export EDITOR=vim
 ## Aliases
 
 * Create a config for `tmux` for each project using the [defaulut config](/tmux/default-layout.conf) and add to alias to start with the [tmux script](/scripts/tmux.sh)
+* Add an alias for the `lazygit` command to make it just `lg`. It makes using it much easier.
