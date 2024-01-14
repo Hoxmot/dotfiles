@@ -1,0 +1,2 @@
+alias ltree="git log --oneline --decorete --graph -n10"
+alias lg="lazygit"

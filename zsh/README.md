@@ -55,9 +55,11 @@ export EDITOR=vim
 ## Tools
 
 * [bat](https://github.com/sharkdp/bat)
+* [curl](https://github.com/curl/curl) -> even though the GH page doesn't mention it, you can just install it with the systems package manager
 * [delta](https://github.com/dandavison/delta)
 * [fx](https://github.com/antonmedv/fx) (Function eXecution)
 * [fzf](https://github.com/junegunn/fzf)
+* [htop](https://github.com/htop-dev/htop) -> even though the GH page doesn't mention it, you can just install it with the systems package manager
 * [lazygit](https://github.com/jesseduffield/lazygit)
 * [ranger](https://github.com/ranger/ranger)
 * [scm_breez](https://github.com/scmbreeze/scm_breeze)
