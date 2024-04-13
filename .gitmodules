@@ -1,0 +1,3 @@
+[submodule "nvim/kickstart.nvim"]
+	path = nvim/kickstart.nvim
+	url = https://github.com/Hoxmot/kickstart.nvim.git
