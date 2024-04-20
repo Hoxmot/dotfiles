@@ -15,4 +15,5 @@ This file contains work in progress setup instructions for MacOS environemt.
         * Don't forget about the plugins
         * Don't forget about the layouts
     1. Install useful [cmd tools](/zsh/README.md#tools)
+    1. Install [git](/git/README.md) [configuration](/git/gitconfig)
 1. Install [vim](/vim/README.md) configuration
