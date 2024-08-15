@@ -14,5 +14,5 @@ Of course, it's been forked from [nvim-lua/kickstart.nvim](https://github.com/nv
 To update, use:
 
 ```bash
-git submodule remote --update
+git submodule update --remote
 ```
