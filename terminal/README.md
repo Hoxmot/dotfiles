@@ -6,6 +6,7 @@
 * [kitty](kitty/README.md)
   * [Settings](kitty/README.md#settings)
   * [Theme](kitty/README.md#settings)
+* [Ghostty](ghostty/README.md)
 * [GNOME Terminal](#gnome-terminal)
   * [Settings](#gnome-terminal---settings)
   * [Theme](#gnome-terminal---theme)
@@ -13,6 +14,10 @@
 ## kitty
 
 Go to kitty [README](kitty/README.md).
+
+## Ghostty
+
+Go to Ghostty [README](ghostty/README.md)
 
 ## GNOME Terminal
 
