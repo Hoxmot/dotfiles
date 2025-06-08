@@ -2,13 +2,29 @@
 font-family = "JetBrainsMono Nerd Font Mono"
 theme = "Dracula"
 
-# Splits
+# Key binds
 
-## Splitting screen
+## Unbinding default config I don't need
+
+### Splits
+
+#### Splitting screen
+keybind = super+shift+d=unbind
+keybind = super+d=unbind
+
+#### Navigating the splits
+keybind = super+alt+right=unbind
+keybind = super+alt+down=unbind
+keybind = super+alt+left=unbind
+keybind = super+alt+up=unbind
+
+## Splits
+
+### Splitting screen
 keybind = super+minus=new_split:down
 keybind = super+backslash=new_split:right
 
-## Navigating the splits
+### Navigating the splits
 keybind = super+l=goto_split:right
 keybind = super+j=goto_split:down
 keybind = super+h=goto_split:left
