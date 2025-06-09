@@ -7,6 +7,7 @@ theme = "Dracula"
 ## Unbinding default config I don't need
 
 ### Splits
+keybind = super+shift+enter=unbind
 
 #### Splitting screen
 keybind = super+shift+d=unbind
@@ -19,6 +20,7 @@ keybind = super+alt+left=unbind
 keybind = super+alt+up=unbind
 
 ## Splits
+keybind = super+z=toggle_split_zoom
 
 ### Splitting screen
 keybind = super+minus=new_split:down
