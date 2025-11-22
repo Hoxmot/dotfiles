@@ -63,6 +63,7 @@ export EDITOR=vim
 * [htop](https://github.com/htop-dev/htop) -> even though the GH page doesn't mention it, you can just install it with the systems package manager
 * [lazygit](https://github.com/jesseduffield/lazygit)
 * [neovim](https://github.com/neovim/neovim)
+* [nvm](https://github.com/nvm-sh/nvm) (Node Version Manager)
 * [scm_breez](https://github.com/scmbreeze/scm_breeze)
 * [starship](https://github.com/starship/starship)
 * [thefuck](https://github.com/nvbn/thefuck)
