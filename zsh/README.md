@@ -48,7 +48,7 @@ This should reduce the blast radius of accidental removal of `.zshrc` file.
 I should also consider having a backup of the file on each laptop, just in case...
 
 ```bash
-export VISUAL=vim
+export VISUAL=nvim
 export EDITOR=vim
 ```
 
@@ -57,14 +57,17 @@ export EDITOR=vim
 * [bat](https://github.com/sharkdp/bat)
 * [curl](https://github.com/curl/curl) -> even though the GH page doesn't mention it, you can just install it with the systems package manager
 * [delta](https://github.com/dandavison/delta)
+* [fastfetch](https://github.com/fastfetch-cli/fastfetch)
 * [fx](https://github.com/antonmedv/fx) (Function eXecution)
 * [fzf](https://github.com/junegunn/fzf)
 * [htop](https://github.com/htop-dev/htop) -> even though the GH page doesn't mention it, you can just install it with the systems package manager
 * [lazygit](https://github.com/jesseduffield/lazygit)
-* [ranger](https://github.com/ranger/ranger)
+* [neovim](https://github.com/neovim/neovim)
 * [scm_breez](https://github.com/scmbreeze/scm_breeze)
+* [starship](https://github.com/starship/starship)
 * [thefuck](https://github.com/nvbn/thefuck)
-* [tig](https://github.com/jonas/tig)
+* [tmux](https://github.com/tmux/tmux)
+* [yazi](https://github.com/sxyazi/yazi)
 
 ## Aliases
 
