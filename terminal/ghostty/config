@@ -2,6 +2,12 @@
 font-family = "JetBrainsMono Nerd Font Mono"
 theme = "Dracula"
 
+## Background
+background-image = /Users/hoxmot/Pictures/disco-elysium/disco-thoughtcabinet-wallpaper-4k.png
+background-image-fit = cover
+background-image-position = center
+background-image-opacity = 0.15
+
 # Key binds
 
 ## Unbinding default config I don't need
