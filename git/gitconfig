@@ -10,6 +10,23 @@
 	light = false      # set to true if you're in a terminal w/ a light background color (e.g. the default macOS terminal)
 	side-by-side = true
 	line-numbers = true
+	# Ayu Dark, to match Ghostty/tmux.
+	# syntax-theme is vendored via bat - see ../bat/README.md. It needs
+	# `bat cache --build` on a fresh machine or delta falls back to its default.
+	syntax-theme = ayu-dark
+	# +/- backgrounds are ayu's vcs green/red composited onto the #0b0e14
+	# background at ~10% (line) and ~22% (word-level emphasis)
+	plus-style = syntax "#17221c"
+	plus-emph-style = syntax "#253b25"
+	minus-style = syntax "#22181e"
+	minus-emph-style = syntax "#3e232a"
+	line-numbers-plus-style = "#7fd962"
+	line-numbers-minus-style = "#f26d78"
+	line-numbers-zero-style = "#6c7380"
+	file-style = "#59c2ff" bold
+	file-decoration-style = "#6c7380" ul
+	hunk-header-style = syntax bold
+	hunk-header-decoration-style = "#6c7380" box
 [merge]
 	conflictstyle = diff3
 [diff]

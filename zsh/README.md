@@ -54,7 +54,7 @@ export EDITOR=vim
 
 ## Tools
 
-* [bat](https://github.com/sharkdp/bat)
+* [bat](https://github.com/sharkdp/bat) -> [config](/bat/README.md)
 * [curl](https://github.com/curl/curl) -> even though the GH page doesn't mention it, you can just install it with the systems package manager
 * [delta](https://github.com/dandavison/delta)
 * [fastfetch](https://github.com/fastfetch-cli/fastfetch)

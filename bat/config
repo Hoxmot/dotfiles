@@ -1,0 +1,7 @@
+# bat configuration
+# https://github.com/sharkdp/bat
+
+# Ayu Dark, to match the Ghostty/tmux theme.
+# Not a built-in bat theme - it lives in themes/ayu-dark.tmTheme and only
+# resolves after `bat cache --build`. See README.md.
+--theme="ayu-dark"

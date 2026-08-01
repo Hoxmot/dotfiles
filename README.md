@@ -4,6 +4,7 @@ My personal workstation configuration
 
 ## Programs
 
+* [bat](bat/README.md)
 * GNOME Tweaks
 * [JetBrains](jet-brains/README.md)
   * [Intellij IDEA](jet-brains/README.md#intellij)
