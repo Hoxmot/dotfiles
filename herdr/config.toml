@@ -1,0 +1,95 @@
+# herdr configuration
+# Ported from tmux.conf - see README.md for what did and didn't carry over.
+# Only settings that differ from herdr's defaults are set; run
+# `herdr --default-config` to see everything else.
+
+[theme]
+# Ghostty is already themed ayu-dark, and herdr ships no ayu theme, so rather
+# than approximating it with a bundled theme we follow the host terminal's
+# ANSI palette. herdr then inherits ayu for free, and stays in sync if the
+# Ghostty theme ever changes again.
+name = "terminal"
+
+[terminal]
+# default_shell is left empty so it follows $SHELL (zsh).
+# "follow" makes new panes/tabs inherit the current pane's directory - the
+# equivalent of `-c "#{pane_current_path}"` on the tmux split binds.
+new_cwd = "follow"
+
+[keys]
+# tmux's default prefix, unchanged. NOTE: this collides if herdr is launched
+# from inside tmux - one of the two has to move. See README.md.
+prefix = "ctrl+b"
+
+# Splits, matching the tmux binds.
+# tmux `bind |` is split-window -h, which puts panes side by side; herdr calls
+# that split_vertical. tmux `bind -` is split-window -v, stacked; herdr calls
+# that split_horizontal. The names invert but the layouts match.
+# backslash rather than pipe: it's the same physical key without needing shift,
+# and it matches the Ghostty bind (`super+backslash` = new_split:right).
+split_vertical = "prefix+backslash"
+split_horizontal = "prefix+minus"
+
+# Pane focus with hjkl. This is prefix+hjkl, not the bare ctrl+hjkl that
+# vim-tmux-navigator provides - see the README on why that doesn't port.
+focus_pane_left = "prefix+h"
+focus_pane_down = "prefix+j"
+focus_pane_up = "prefix+k"
+focus_pane_right = "prefix+l"
+
+# `lg` alias, as a popup instead of a pane.
+[[keys.command]]
+key = "prefix+alt+g"
+type = "popup"
+command = "lazygit"
+description = "run lazygit"
+width = "80%"
+height = "80%"
+
+# vim-herdr-navigation - the vim-tmux-navigator equivalent, restoring bare
+# ctrl+hjkl across nvim splits and herdr panes. These are direct (non-prefix)
+# chords; ctrl+letter is the most reliable direct binding herdr documents.
+# Requires `herdr plugin install paulbkim-dev/vim-herdr-navigation` - see
+# README.md, the plugin is not carried in this repo.
+[[keys.command]]
+key = "ctrl+h"
+type = "plugin_action"
+command = "vim-herdr-navigation.left"
+description = "navigate left (vim/herdr)"
+
+[[keys.command]]
+key = "ctrl+j"
+type = "plugin_action"
+command = "vim-herdr-navigation.down"
+description = "navigate down (vim/herdr)"
+
+[[keys.command]]
+key = "ctrl+k"
+type = "plugin_action"
+command = "vim-herdr-navigation.up"
+description = "navigate up (vim/herdr)"
+
+[[keys.command]]
+key = "ctrl+l"
+type = "plugin_action"
+command = "vim-herdr-navigation.right"
+description = "navigate right (vim/herdr)"
+
+[ui]
+# `set -g mouse on`
+mouse_capture = true
+
+# ayu's amber accent. The ANSI palette inherited via theme.name = "terminal"
+# has no slot for it, so it's set explicitly - it's the one ayu colour that
+# would otherwise be lost.
+accent = "#e6b450"
+
+# `set-option -g allow-rename off` - herdr never renames tabs from the running
+# process, and prompting on create keeps names deliberate rather than generated.
+prompt_new_tab_name = true
+
+[advanced]
+# tmux used `history-limit 10000`, counted in lines; herdr counts bytes, so
+# this is not a direct translation. 10 MB is herdr's default and is worth
+# considerably more than 10k lines of scrollback.
+scrollback_limit_bytes = 10000000

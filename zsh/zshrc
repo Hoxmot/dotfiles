@@ -104,6 +104,12 @@ source $ZSH/oh-my-zsh.sh
 export VISUAL=nvim
 export EDITOR=vim
 
+# vim-herdr-navigation binds ctrl+hjkl globally in herdr, which would otherwise
+# steal those chords from lazygit. Listing it here forwards the keys into the
+# pane instead. Unlike vim, lazygit won't cross out at an edge - use
+# prefix+hjkl to leave the pane. See ../herdr/README.md.
+export HERDR_NAV_PASSTHROUGH_RE='^lazygit$'
+
 source ~/.zsh_path
 source ~/.zsh_programs
 source ~/.zsh_aliases

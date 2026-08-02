@@ -6,6 +6,7 @@ My personal workstation configuration
 
 * [bat](bat/README.md)
 * GNOME Tweaks
+* [herdr](herdr/README.md)
 * [JetBrains](jet-brains/README.md)
   * [Intellij IDEA](jet-brains/README.md#intellij)
   * [PyCharm](jet-brains/README.md#pycharm)
